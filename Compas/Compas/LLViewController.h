@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LLViewController : UIViewController
-
+@property (nonatomic) CGFloat arrowAngle;
 @end
