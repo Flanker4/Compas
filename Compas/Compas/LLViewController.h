@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface LLViewController : UIViewController
+@interface LLViewController : UIViewController<CLLocationManagerDelegate>
 @property (nonatomic) CGFloat arrowAngle;
+@property (nonatomic,strong) CLLocationManager * locationManager;
 @end

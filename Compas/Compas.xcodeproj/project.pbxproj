@@ -24,6 +24,7 @@
 		0E90763417B2AAF800DE9CCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E90763217B2AAF800DE9CCE /* InfoPlist.strings */; };
 		0E90763717B2AAF800DE9CCE /* CompasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90763617B2AAF800DE9CCE /* CompasTests.m */; };
 		0E90764517B2B8B400DE9CCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E90764417B2B8B400DE9CCE /* QuartzCore.framework */; };
+		0EEBE2DE17B40297005BB55C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEBE2DD17B40297005BB55C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		0E90763517B2AAF800DE9CCE /* CompasTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompasTests.h; sourceTree = "<group>"; };
 		0E90763617B2AAF800DE9CCE /* CompasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompasTests.m; sourceTree = "<group>"; };
 		0E90764417B2B8B400DE9CCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0EEBE2DD17B40297005BB55C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EEBE2DE17B40297005BB55C /* CoreLocation.framework in Frameworks */,
 				0E90764517B2B8B400DE9CCE /* QuartzCore.framework in Frameworks */,
 				0E90760617B2AAF700DE9CCE /* UIKit.framework in Frameworks */,
 				0E90760817B2AAF700DE9CCE /* Foundation.framework in Frameworks */,
@@ -90,7 +93,6 @@
 		0E9075F617B2AAF700DE9CCE = {
 			isa = PBXGroup;
 			children = (
-				0E90764417B2B8B400DE9CCE /* QuartzCore.framework */,
 				0E90760B17B2AAF700DE9CCE /* Compas */,
 				0E90762F17B2AAF800DE9CCE /* CompasTests */,
 				0E90760417B2AAF700DE9CCE /* Frameworks */,
@@ -110,6 +112,8 @@
 		0E90760417B2AAF700DE9CCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EEBE2DD17B40297005BB55C /* CoreLocation.framework */,
+				0E90764417B2B8B400DE9CCE /* QuartzCore.framework */,
 				0E90760517B2AAF700DE9CCE /* UIKit.framework */,
 				0E90760717B2AAF700DE9CCE /* Foundation.framework */,
 				0E90760917B2AAF700DE9CCE /* CoreGraphics.framework */,
